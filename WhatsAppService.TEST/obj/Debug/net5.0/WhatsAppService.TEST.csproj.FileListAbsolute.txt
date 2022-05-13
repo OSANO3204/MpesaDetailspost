@@ -1,0 +1,17 @@
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\bin\Debug\net5.0\WhatsAppService.TEST.deps.json
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\bin\Debug\net5.0\WhatsAppService.TEST.dll
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\bin\Debug\net5.0\ref\WhatsAppService.TEST.dll
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\bin\Debug\net5.0\WhatsAppService.TEST.pdb
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\bin\Debug\net5.0\WhatsAppService.BLL.dll
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\bin\Debug\net5.0\WhatsAppService.Core.dll
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\bin\Debug\net5.0\WhatsAppService.BLL.pdb
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\bin\Debug\net5.0\WhatsAppService.Core.pdb
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\obj\Debug\net5.0\WhatsAppService.TEST.csproj.AssemblyReference.cache
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\obj\Debug\net5.0\WhatsAppService.TEST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\obj\Debug\net5.0\WhatsAppService.TEST.AssemblyInfoInputs.cache
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\obj\Debug\net5.0\WhatsAppService.TEST.AssemblyInfo.cs
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\obj\Debug\net5.0\WhatsAppService.TEST.csproj.CoreCompileInputs.cache
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\obj\Debug\net5.0\WhatsAppService.TEST.csproj.CopyComplete
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\obj\Debug\net5.0\WhatsAppService.TEST.dll
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\obj\Debug\net5.0\ref\WhatsAppService.TEST.dll
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.TEST\obj\Debug\net5.0\WhatsAppService.TEST.pdb

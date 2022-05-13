@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhasAppService.Api", "WhasAppService.Api\WhasAppService.Api.csproj", "{09A993EC-852E-42DF-A802-3A5DB502418D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppService.BLL", "WhatsAppService.BLL\WhatsAppService.BLL.csproj", "{08209A28-F266-42CF-9DDC-65FDD7EFDE19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppService.Core", "WhatsAppService.Core\WhatsAppService.Core.csproj", "{01A4B4AD-4BC7-4E7F-A6B9-7750A07A85CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppService.TEST", "WhatsAppService.TEST\WhatsAppService.TEST.csproj", "{ED7C6673-5EFE-4618-97B9-EB010575A320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09A993EC-852E-42DF-A802-3A5DB502418D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A993EC-852E-42DF-A802-3A5DB502418D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A993EC-852E-42DF-A802-3A5DB502418D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A993EC-852E-42DF-A802-3A5DB502418D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08209A28-F266-42CF-9DDC-65FDD7EFDE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08209A28-F266-42CF-9DDC-65FDD7EFDE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08209A28-F266-42CF-9DDC-65FDD7EFDE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08209A28-F266-42CF-9DDC-65FDD7EFDE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A4B4AD-4BC7-4E7F-A6B9-7750A07A85CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A4B4AD-4BC7-4E7F-A6B9-7750A07A85CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A4B4AD-4BC7-4E7F-A6B9-7750A07A85CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A4B4AD-4BC7-4E7F-A6B9-7750A07A85CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7C6673-5EFE-4618-97B9-EB010575A320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7C6673-5EFE-4618-97B9-EB010575A320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7C6673-5EFE-4618-97B9-EB010575A320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7C6673-5EFE-4618-97B9-EB010575A320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98F0AEB1-E8E4-4A17-8950-F1646E167B4F}
+	EndGlobalSection
+EndGlobal

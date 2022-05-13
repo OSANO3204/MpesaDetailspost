@@ -1,0 +1,12 @@
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\bin\Debug\net5.0\WhatsAppService.Core.deps.json
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\bin\Debug\net5.0\WhatsAppService.Core.dll
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\bin\Debug\net5.0\ref\WhatsAppService.Core.dll
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\bin\Debug\net5.0\WhatsAppService.Core.pdb
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\obj\Debug\net5.0\WhatsAppService.Core.csproj.AssemblyReference.cache
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\obj\Debug\net5.0\WhatsAppService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\obj\Debug\net5.0\WhatsAppService.Core.AssemblyInfoInputs.cache
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\obj\Debug\net5.0\WhatsAppService.Core.AssemblyInfo.cs
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\obj\Debug\net5.0\WhatsAppService.Core.csproj.CoreCompileInputs.cache
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\obj\Debug\net5.0\WhatsAppService.Core.dll
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\obj\Debug\net5.0\ref\WhatsAppService.Core.dll
+C:\Users\brian.otieno\source\repos\WhatsAppService\WhatsAppService.Core\obj\Debug\net5.0\WhatsAppService.Core.pdb

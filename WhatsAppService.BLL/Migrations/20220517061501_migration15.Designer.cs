@@ -10,8 +10,8 @@ using WhatsAppService.BLL.Data;
 namespace WhatsAppService.BLL.Migrations
 {
     [DbContext(typeof(WhatsAppServiceContext))]
-    [Migration("20220510140028_migration6")]
-    partial class migration6
+    [Migration("20220517061501_migration15")]
+    partial class migration15
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -43,38 +43,9 @@ namespace WhatsAppService.BLL.Migrations
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("TranscationId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("uniquecodeid")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("uniquecodeid");
-
                     b.ToTable("mpesatransaction");
-                });
-
-            modelBuilder.Entity("WhatsAppService.Core.Models.uniquecode", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.HasKey("id");
-
-                    b.ToTable("uniquecode");
-                });
-
-            modelBuilder.Entity("WhatsAppService.Core.Models.MpesaTransaction", b =>
-                {
-                    b.HasOne("WhatsAppService.Core.Models.uniquecode", "uniquecode")
-                        .WithMany()
-                        .HasForeignKey("uniquecodeid");
-
-                    b.Navigation("uniquecode");
                 });
 #pragma warning restore 612, 618
         }

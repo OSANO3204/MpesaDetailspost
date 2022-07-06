@@ -11,13 +11,15 @@ namespace WhatsAppService.Core.Models
     public class MpesaTransaction
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string PhoneNumber { get; set; }
-        public int Amount { get; set; }
-        public string TranscationId { get; set; }
+        public string Amount { get; set; }
+        public string RecieverFullName { get; set; }
+        public string ReceiverMobile { get; set; }
+        public string Narration { get; set; }
+        public string SenderPaybill { get; set; }
+
+       // [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}",
+       // ApplyFormatInEditMode = true)]
         public DateTime CreatedAt { get; set; } = DateTime.Now;
-        public DateTime ModifedAt { get; set; } = DateTime.Now;
-        
 
     }
 }

@@ -10,8 +10,8 @@ using WhatsAppService.BLL.Data;
 namespace WhatsAppService.BLL.Migrations
 {
     [DbContext(typeof(WhatsAppServiceContext))]
-    [Migration("20220510075147_migration2")]
-    partial class migration2
+    [Migration("20220517060306_migration14")]
+    partial class migration14
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -37,8 +37,8 @@ namespace WhatsAppService.BLL.Migrations
                     b.Property<DateTime>("ModifedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Name")
-                        .HasColumnType("int");
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");

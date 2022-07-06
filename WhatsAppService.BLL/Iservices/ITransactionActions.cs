@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,13 @@ namespace WhatsAppService.BLL.Iservices
         public Task RemoveTrasnaction(int id);
 
         //search transactions
-        public Task<IEnumerable<MpesaTransaction>> Search(string name, int id, string phone);
+        public Task<IEnumerable<MpesaTransaction>> GetTxnByPaybill(string PaybillNumber);
+        
+        //search transaction by name
+        public  Task Search(string name, int id, string phone);
+
+        //search transaction by name 
+        public  Task<IEnumerable<MpesaTransaction>> SearchName(string name);
     }
 }
 

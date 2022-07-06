@@ -10,8 +10,8 @@ using WhatsAppService.BLL.Data;
 namespace WhatsAppService.BLL.Migrations
 {
     [DbContext(typeof(WhatsAppServiceContext))]
-    [Migration("20220510063348_Initial Migration")]
-    partial class InitialMigration
+    [Migration("20220702223215_initila13")]
+    partial class initila13
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,30 +23,30 @@ namespace WhatsAppService.BLL.Migrations
 
             modelBuilder.Entity("WhatsAppService.Core.Models.MpesaTransaction", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int>("Amount")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("ModifedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Name")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PhoneNumber")
+                    b.Property<string>("SenderPaybill")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("TranscationId")
+                    b.Property<string>("amount")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.Property<string>("narration")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("receiverMobile")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("recieverFullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
 
                     b.ToTable("mpesatransaction");
                 });

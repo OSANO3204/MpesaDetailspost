@@ -10,8 +10,8 @@ using WhatsAppService.BLL.Data;
 namespace WhatsAppService.BLL.Migrations
 {
     [DbContext(typeof(WhatsAppServiceContext))]
-    [Migration("20220510075549_migration3")]
-    partial class migration3
+    [Migration("20220616131043_ChangeIframe")]
+    partial class ChangeIframe
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,30 +23,27 @@ namespace WhatsAppService.BLL.Migrations
 
             modelBuilder.Entity("WhatsAppService.Core.Models.MpesaTransaction", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int>("Amount")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("ModifedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Name")
+                    b.Property<string>("amount")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PhoneNumber")
+                    b.Property<string>("narration")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("TranscationId")
+                    b.Property<string>("receiverMobile")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.Property<string>("recieverFullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
 
                     b.ToTable("mpesatransaction");
                 });

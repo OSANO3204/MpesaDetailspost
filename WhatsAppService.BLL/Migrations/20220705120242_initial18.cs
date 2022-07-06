@@ -2,7 +2,7 @@
 
 namespace WhatsAppService.BLL.Migrations
 {
-    public partial class migration2 : Migration
+    public partial class initial18 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

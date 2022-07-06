@@ -8,9 +8,12 @@ namespace WhatsAppService.Core.ViewModel
 {
   public   class MpesaTransactionViewModel
     {
-        public string Name { get; set; }
-        public string PhoneNumber { get; set; }
-        public int Amount { get; set; }
-        public string TranscationId { get; set; }
+        public int Id { get; set; }
+        public string Amount { get; set; }
+        public string RecieverFullName { get; set; }
+        public string ReceiverMobile { get; set; }
+        public string SenderPaybill { get; set; }
+        public string Narration { get; set; }
+
     }
 }

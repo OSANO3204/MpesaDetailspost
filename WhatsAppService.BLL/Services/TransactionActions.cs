@@ -11,7 +11,7 @@ using WhatsAppService.BLL.Mapper;
 using WhatsAppService.Core.Models;
 using WhatsAppService.Core.ViewModel;
 using Microsoft.AspNetCore.Http;
-
+using Microsoft.AspNetCore.Mvc;
 
 namespace WhatsAppService.BLL.Services
 {
@@ -45,6 +45,7 @@ namespace WhatsAppService.BLL.Services
         {
             var getAll = await _context.mpesatransaction.ToListAsync();
             return getAll;
+
         }
 
 
@@ -65,26 +66,43 @@ namespace WhatsAppService.BLL.Services
                 await _context.SaveChangesAsync();
             }
         }
-        
+
         //search Transaction 
-        public async Task<IEnumerable<MpesaTransaction>> Search(string name, int id ,string phone)
+        public async Task<ITransactionActions> Search(string name, int id, string phone)
         {
             IQueryable<MpesaTransaction> query = _context.mpesatransaction;
 
             if (!string.IsNullOrEmpty(name))
             {
-                query = query.Where(e => e.Name.Contains(name)|| e.PhoneNumber.Contains(phone));
+                query = query.Where(e => e.RecieverFullName.Contains(name) || e.ReceiverMobile.Contains(phone));
             }
 
-            if (name != null & phone !=null)
+            if (name != null & phone != null)
             {
-                query = query.Where(e => e.Name == name);
+                query = query.Where(e => e.RecieverFullName == name);
             }
 
-            return await query.ToListAsync();
+            return (ITransactionActions)await query.ToListAsync();
+        }
+
+        public async Task<IEnumerable<MpesaTransaction>> GetTxnByPaybill(string PaybillNumber)
+        {
+            return await _context.mpesatransaction.Where(x => x.SenderPaybill == PaybillNumber).ToListAsync();
+
+        }
+
+        Task ITransactionActions.Search(string name, int id, string phone)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<IEnumerable<MpesaTransaction>> SearchName(string name)
+        {
+            return await _context.mpesatransaction.Where(e => e.RecieverFullName == name).ToListAsync();
         }
     }
 }
+
 
 
       
